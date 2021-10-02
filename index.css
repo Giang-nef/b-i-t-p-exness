@@ -1,0 +1,151 @@
+body {
+  margin: 0px;
+}
+
+header {
+  max-width: 1903px;
+  background-color: rgb(19 18 19);
+  width: 100%;
+}
+
+.logo {
+  max-width: 58%;
+  margin: 0px auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content:  space-between;
+}
+
+.tham-gia > button {
+  background-color: rgb(19 18 19);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.tham-gia > button:hover {
+  color: yellow;
+  border: 1px solid yellow;
+}
+
+.today {
+  display: flex;
+  justify-content: space-between;
+  max-width: 58%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.title-today {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-today > h1 {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 400;
+  max-width: 341px;
+  width: 100%;
+}
+
+.title-today > h1 > span {
+  color: yellow;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.title-today > p {
+  color: rgb(214 214 214);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.title-today > button {
+  max-width: 200px;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400px;
+  background-color: rgb(254 216 49);
+  border: 0px;
+  border-radius: 50px;
+  padding: 15px 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  max-width: 55%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.icon > div > img {
+  max-width: 50px;
+  width: 100%;
+  height: 50px;
+}
+
+.icon > div > p {
+  color: rgb(255 255 255);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+main {
+  background-color: rgb(19 18 19);
+}
+
+.toan-cau {
+
+}
+
+
+.title-sum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+
+}
+
+.title-sum > h1 {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.title-sum > h1 > span {
+  color: yellow;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.title-sum > p {
+  color: rgb(214 214 214);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.title-sum > button {
+  max-width: 200px;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400px;
+  background-color: rgb(254 216 49);
+  border: 0px;
+  border-radius: 50px;
+  padding: 15px 30px;
+}
+
+
